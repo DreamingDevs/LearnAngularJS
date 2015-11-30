@@ -47,4 +47,8 @@ Changelog
 2. Implemented Order Processing and Thank you View
 3. Added separate WebApi project
 
+**11/28/2015**
 
+1. Integrated GetAllProducts EndPoint with Web Project
+2. Implemented Admin View with Products and Orders Views
+3. Created API Endpoints for List of orders
