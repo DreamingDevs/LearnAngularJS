@@ -27,18 +27,12 @@ namespace ShoppingCart.WebApi.Controllers
         }
 
         [Route("api/PostProducts")]
-        [AcceptVerbs("OPTIONS","POST")]
+        [AcceptVerbs("POST")]
         public Guid PostProducts(Order order)
         {
             var orderId = Guid.NewGuid();
             _orders.Add(orderId, order);
             return orderId;
-        }
-
-        [Route("api/GetOrders")]
-        public Dictionary<Guid, Order> GetOrders()
-        {
-            return _orders;
         }
     }
 
