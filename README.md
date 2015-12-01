@@ -52,3 +52,9 @@ Changelog
 1. Integrated GetAllProducts EndPoint with Web Project
 2. Implemented Admin View with Products and Orders Views
 3. Created API Endpoints for List of orders
+
+**12/1/2015**
+
+1. Orders API integration with Admin Orders
+2. Delete All Orders API EndPoint
+3. Handled OPTIONS requests at Application BeginRequest level
