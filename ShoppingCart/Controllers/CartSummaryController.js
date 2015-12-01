@@ -9,7 +9,6 @@
         return total;
     }
     $scope.remove = function (product) {
-        console.log(product);
         cart.removeProduct(product.Id);
         product.isAddedToCart = false;
     }

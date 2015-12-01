@@ -48,6 +48,7 @@
     <Content Include="Controllers\AdminController.js" />
     <Content Include="Controllers\AdminModule.js" />
     <Content Include="Controllers\CartSummaryController.js" />
+    <Content Include="Controllers\OrdersController.js" />
     <Content Include="Controllers\ProductListController.js" />
     <Content Include="Directives\Directives.js" />
     <Content Include="Filters\CustomFilters.js" />

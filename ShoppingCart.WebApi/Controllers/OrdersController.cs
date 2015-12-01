@@ -14,5 +14,12 @@ namespace ShoppingCart.WebApi.Controllers
         {
             return _orders;
         }
+
+        [Route("api/DeleteAllOrders")]
+        public bool DeleteOrders()
+        {
+            _orders = new Dictionary<Guid, Order>();
+            return true;
+        }
     }
 }

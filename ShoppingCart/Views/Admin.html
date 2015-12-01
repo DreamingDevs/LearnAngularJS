@@ -17,6 +17,7 @@
 
     <!-- Controllers -->
     <script src="../Controllers/AdminController.js"></script>
+    <script src="../Controllers/OrdersController.js"></script>
 </head>
 <body ng-controller="AdminController">
     <div class="navbar navbar-inverse">
@@ -24,15 +25,15 @@
     </div>
 
     <!-- Menu -->
-    <div class="col-xs-3" ng-cloak>
+    <div class="col-xs-3">
         <a ng-repeat="menuItem in getMenuItems()" ng-click="setSelectedMenuItem($index)" ng-class="{'btn-primary': selectedMenuItem == $index}" class="btn btn-block btn-default btn-lg">
             {{ ::menuItem}}
         </a>
     </div>
 
     <div class="col-xs-8" ng-cloak>
-        <div ng-include="getScreen()" class="view-animate"></div>
-        </div>
+        <div ng-include="getScreen()"></div>
+    </div>
 
 </body>
 </html>

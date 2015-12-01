@@ -4,6 +4,7 @@
 /// <reference path="../controllers/adminmodule.js" />
 /// <reference path="../controllers/cartsummarycontroller.js" />
 /// <reference path="../controllers/maincontroller.js" />
+/// <reference path="../controllers/orderscontroller.js" />
 /// <reference path="../controllers/productlistcontroller.js" />
 /// <reference path="../controllers/productmodule.js" />
 /// <reference path="../directives/directives.js" />
